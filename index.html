@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Set Content</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="set">
+        <h1>jQuery Set Content</h1>
+        <p>Set content also utilises html(), text() and val()</p>
+        <p>Upon the click of the button: </p>
+        <p class="bold">- This text will become bolder</p>
+        <p class="text">- This text will change to 'Hello, world'</p>
+        <input class="alert_value" type="text" value="" placeholder="This will change to 'How you doin!'">
+        <div class="buttons">
+            <button id="set">Click to set content</button>
+            <button id="val">Click to alert val</button>
+        </div>
+        <div id="refresh">
+            <button onclick="history.go(0)"><i class="fa fa-refresh" style="background: transparent;"></i> Refresh</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
